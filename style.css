@@ -1,0 +1,11 @@
+.custom-nav{
+    height: 70px;
+}
+
+.custom-search:focus{
+    outline: none;
+}
+
+.custom-offcavas{
+    top: 70px !important;
+}
