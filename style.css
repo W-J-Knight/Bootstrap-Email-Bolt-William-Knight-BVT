@@ -1,11 +1,32 @@
-.custom-nav{
+.custom-nav {
     height: 70px;
 }
 
-.custom-search:focus{
+
+.custom-search {
+    max-width: 150px;
+}
+
+.custom-search:focus {
     outline: none;
 }
 
-.custom-offcavas{
+.custom-offcavas {
     top: 70px !important;
+}
+
+
+main {
+    top: 70px !important;
+}
+
+.custom-emails {
+    min-width: 280px;
+}
+
+@media (min-width: 768px) {
+
+    .custom-search {
+        max-width: none;
+    }
 }
