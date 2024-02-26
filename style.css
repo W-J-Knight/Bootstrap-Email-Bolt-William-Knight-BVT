@@ -29,4 +29,22 @@ main {
     .custom-search {
         max-width: none;
     }
+
+    .custom-emails {
+        min-width: 400px !important;
+    }
+
+    .view-detail {
+        min-width: 400px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .custom-emails {
+        min-width: 0 !important;
+    }
+
+    .view-detail {
+        min-width: 0 !important;
+    }
 }
