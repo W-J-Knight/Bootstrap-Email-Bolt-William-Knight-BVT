@@ -20,14 +20,18 @@ main {
     top: 70px !important;
 }
 
-.newEmail .modal-dialog {
-    width: 90%;
-}
 
 .custom-emails {
     min-width: 280px;
 }
 
+.newEmail .modal-dialog {
+    width: 95%;
+}
+
+ .newEmail .modal-dialog textarea {
+     width: 92%;
+ }
 
 @media (min-width: 768px) {
 
@@ -44,12 +48,10 @@ main {
     }
 
     .newEmail .modal-dialog {
-        min-width: 650px;
+        width: 65%;
     }
 
-    .newEmail .modal-dialog textarea {
-        min-width: 400px;
-    }
+
 }
 
 @media (min-width: 992px) {
@@ -61,7 +63,4 @@ main {
         min-width: 0 !important;
     }
 
-    .newEmail .modal-dialog {
-        max-width: 650px;
-    }
 }
