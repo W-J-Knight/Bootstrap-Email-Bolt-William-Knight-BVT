@@ -25,6 +25,10 @@ main {
     min-width: 280px;
 }
 
+.view-detail{
+    min-width: 280px;
+}
+
 .newEmail .modal-dialog {
     width: 95%;
 }
