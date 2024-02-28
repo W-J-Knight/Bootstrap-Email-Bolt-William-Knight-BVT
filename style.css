@@ -37,6 +37,15 @@ main {
      width: 92%;
  }
 
+
+ /* https: //mdigi.tools/lighten-color/#198754 */
+.bg-lighter-success{
+    background-color: #6be4ac ;
+} 
+
+.bg-lighter-dark{
+    background-color: #c6cbd1;
+}
 @media (min-width: 768px) {
 
     .custom-search {
